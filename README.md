@@ -16,7 +16,7 @@ bash
 npm install express sqlite3
 
 
-3.Estrutura
+3.Estrutura 
 
 newsletter-project/
 ├── server.js
