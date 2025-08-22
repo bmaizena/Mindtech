@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #092456;
+    color: #ffffff;
+    align-items: center;
+}
+
+#container{
+    margin: auto;
+    margin-top: 50px;
+    padding: 70px;
+    height: 700px;
+    background: radial-gradient(circle,
+    #092456 20% ,
+    rgba(0, 0, 0, 0.986) 50%);
+    width: 1100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+main{
+    margin-top: 10px;
+    padding: 40px; 
+}
+
+h1{
+    font-size: 2.3em;
+    margin-bottom: 40px;
+}
+
+.subtitle{
+    font-size: 1em;
+    margin-bottom: 40px;
+    text-align: justify;
+    word-spacing: 1px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 5px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    filter: invert(39%) sepia(84%) saturate(5230%) hue-rotate(200deg);
+}
+
+
+#img-it{
+    width: 560px;
+    padding-left: 30px;
+}
+
+
+#logo{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 22%;
+    left: 36%;
+    filter: opacity(70%);
+}
+
+
+#email{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1em;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+#botao{
+    width: 410px;
+    height: 45px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #165CDE;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#botao:hover{
+    background-color: #0F4BB5;
+    transition: 0.5s;
+
+}
+
+
+
+
+/* Estilos INdex2 */
+
+#container-index2{
+    margin: auto;
+    margin-top: 50px; 
+    padding: 70px;
+    height: 700px;
+    background: radial-gradient(circle,
+    #092456 20% ,
+    rgba(0, 0, 0, 0.986) 50%);
+    width: 1100px; 
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+#main-index2{
+    margin-top: 10px;
+    padding: 40px;
+    margin: auto;
+    width: 500px; 
+    
+}
+
+#icone-index2{
+    width: 280px;
+    filter: invert(90%);
+}
+
+#title-index2{
+    font-size: 2.3em;
+    text-align: justify;
+}
+
+.subtitle-index2{
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+#logo-index2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 15%;
+    left: 1%;
+    filter: opacity(90%);
+}
+
+.container-descadastrar{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao2{
+    width: 410px;
+    height: 45px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #165CDE;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.botao2:hover{
+    background-color: #0F4BB5;
+    transition: 0.5s;
+}
+
