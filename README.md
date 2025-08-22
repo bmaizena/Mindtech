@@ -16,26 +16,15 @@ bash
 npm install express sqlite3
 
 
-3.Estrutura 
 
-newsletter-project/
-├── server.js
-├── newsletter.db (criado automaticamente)
-├── public/
-│   ├── index.html
-│   ├── index2.html
-│   ├── style.css
-│   ├── imagens
-│   └── script.js
-
-4.Inicie o servidor
+3.Inicie o servidor
 
 bash
 
 node server.js
 
 
-5.Acesse no navegador
+4.Acesse no navegador
 
 terminal
 http://localhost:3000
